@@ -1,0 +1,63 @@
+% -*-coding: utf-8 -*-
+
+\documentclass[12pt,a4paper]{memoir}
+
+\usepackage{graphicx}
+\usepackage{fontspec,lipsum}
+\setmainfont[Ligatures=TeX]{Linux Libertine O}
+\usepackage[small,sf,bf]{titlesec}
+
+\setstocksize{2in}{3.5in}
+\setpagecc{2in}{3.5in}{*}
+\settypeblocksize{1.9in}{3.4in}{*}
+\setulmargins{0.0in}{*}{*}
+\setlrmargins{0.0in}{*}{*}
+
+\setheadfoot{0.1pt}{0.1pt}
+\setheaderspaces{1pt}{*}{*}
+\checkandfixthelayout[fixed]
+
+\pagestyle{empty}
+
+\begin{document}
+
+    \begin{minipage}[t]{0.93\textwidth}
+        $
+            \vcenter{
+                \hbox{\includegraphics[height=0.78cm]{logo_upe.pdf}}
+            }
+            \hfill
+            \vcenter{
+                \hbox{\includegraphics[height=2.2cm]{logo_ligm.pdf}}
+            }
+        $
+    \end{minipage}
+
+    \vfill
+
+    \begin{Spacing}{1.00}
+    
+    \noindent
+
+    \begin{minipage}[t]{0.9\textwidth}
+    \begin{center}
+        {\large    \textbf{Georges BRASSENS}}\\
+        
+        {\textit{PhD candidate in Computer Science}}
+    \end{center}
+    \end{minipage}
+
+    \vfill
+
+    \noindent
+
+    \begin{minipage}[t]{.93\textwidth}
+    \begin{flushright}
+    \tiny
+        \includegraphics[height=0.25cm]{icon_mail.png} georges.brassens@univ-mlv.fr \\
+        \includegraphics[height=0.25cm]{icon_web.png} www.georges-brassens.com
+    \end{flushright}
+    \end{minipage}
+
+    \end{Spacing}
+\end{document}
