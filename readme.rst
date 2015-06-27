@@ -1,6 +1,7 @@
 LIGM business cards
 ===================
 
+
 Prerequisities
 --------------
 
@@ -9,22 +10,26 @@ Prerequisities
 * PDFjam package in your system (http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/)
 * GIT
 
+
 Cloning the repository
 ----------------------
 
-.. code::
+.. code:: bash
 
 	git clone git://github.com/karel-brinda/ligm-business-cards
 	
 
-Compilation
------------
+Example compilation
+-------------------
 
-.. code::
+.. code:: bash
 
-	cd ligm-business-cards/latex && make
+	cd ligm-business-cards/latex && make clean && make
+
 
 Creating your own business card
 -------------------------------
 
 Copy the example (``georges_brassens.tex``), modify it, and run ``make``.
+
+
