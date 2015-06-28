@@ -1,12 +1,12 @@
 
 %.single.pdf : %.tex
 	xelatex $<
-	mv -f $(addsuffix .pdf, $(basename $(wildcard *.tex))) $@
+	mv -f $(addsuffix .pdf, $(basename $<)) $@
 
 %.sheet.pdf : %.single.pdf
 	pdfnup \
         --nup 2x5 \
-        --scale 0.8 \
+        --scale 0.99 \
         --frame true \
         --a4paper \
         --no-landscape \
