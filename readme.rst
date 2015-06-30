@@ -30,7 +30,7 @@ Downloading using CURL
 
 **Contact:** Karel Brinda, karel.brinda@univ-mlv.fr
 
-All resources for building LIGM business cards with LaTeX are located in the `latex`_ directory.
+All resources for building LIGM business cards with **XeLaTeX** are located in the `latex`_ directory. Remark that compilation with ``latex`` and ``pdflatex`` programs will not work. Program ``xelatex`` must be used instead (see ``Makefile``). It should be part of all state-of-the-art TeX distributions.
 
 Prerequisities
 ~~~~~~~~~~~~~~
