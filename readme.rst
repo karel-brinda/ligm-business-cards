@@ -25,10 +25,20 @@ Downloading using CURL
 
 	curl -L https://github.com/karel-brinda/ligm-business-cards/archive/master.tar.gz | tar xf -
 
-1) Creating your business card using TeX
+1) Creating your business card using OpenOffice
+-----------------------------------------------
+
+**Contact:** Philippe Gambette, philippe.gambette@gmail.com
+
+
+
+2) Creating your business card using TeX
 ----------------------------------------
 
 **Contact:** Karel Brinda, karel.brinda@univ-mlv.fr
+
+**Example:** `_EXAMPLE.single.pdf`_, `_EXAMPLE.sheet.pdf`_
+
 
 All resources for building LIGM business cards with **XeLaTeX** are located in the `latex`_ directory. Remark that compilation with ``latex`` and ``pdflatex`` programs will not work. Program ``xelatex`` must be used instead (see ``Makefile``). It should be part of all state-of-the-art TeX distributions.
 
@@ -63,7 +73,7 @@ Copy the example (`_EXAMPLE.tex`_), modify it, and run ``make``. You can eventua
 .. _`downloaded as a ZIP file`: https://github.com/karel-brinda/ligm-business-cards/archive/master.zip
 .. _`latex`: latex
 .. _`_EXAMPLE.tex`: latex/_EXAMPLE.tex
+.. _`_EXAMPLE.single.pdf`: latex/_EXAMPLE.single.pdf
+.. _`_EXAMPLE.sheet.pdf`: latex/_EXAMPLE.sheet.pdf
 
-2) Creating your business card using OpenOffice
------------------------------------------------
 
