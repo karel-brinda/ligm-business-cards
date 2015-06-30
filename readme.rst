@@ -30,7 +30,7 @@ Downloading using CURL
 
 **Contact:** Philippe Gambette, philippe.gambette@gmail.com
 
-
+Just open the CartesVisite.odg file in OpenOffice, make the appropriate changes to customize them, copy them in all business cards of the page, and print without adding any margin.
 
 2) Creating your business card using TeX
 ----------------------------------------
