@@ -4,12 +4,19 @@ LIGM business cards
 Downloading the repository
 --------------------------
 
+Link for download
+~~~~~~~~~~~~~~~~~
+
+https://github.com/karel-brinda/ligm-business-cards/archive/master.zip
+
+
 Cloning using GIT
 ~~~~~~~~~~~~~~~~~
 
 .. code:: bash
 
 	git clone git://github.com/karel-brinda/ligm-business-cards
+
 
 Downloading using CURL
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -18,9 +25,8 @@ Downloading using CURL
 
 	curl -L https://github.com/karel-brinda/ligm-business-cards/archive/master.tar.gz | tar xf -
 
-
-Creating your business card using TeX
--------------------------------------
+1) Creating your business card using TeX
+----------------------------------------
 
 **Contact:** Karel Brinda, karel.brinda@univ-mlv.fr
 
@@ -57,3 +63,7 @@ Copy the example (`_EXAMPLE.tex`_), modify it, and run ``make``. You can eventua
 .. _`downloaded as a ZIP file`: https://github.com/karel-brinda/ligm-business-cards/archive/master.zip
 .. _`latex`: latex
 .. _`_EXAMPLE.tex`: latex/_EXAMPLE.tex
+
+2) Creating your business card using OpenOffice
+-----------------------------------------------
+
