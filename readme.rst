@@ -47,7 +47,7 @@ Compilation
 Creating your own business card
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Copy the example (`_example.tex`_), modify it, and run ``make``. You can eventually add your business card to the repository
+Copy the example (`_EXAMPLE.tex`_), modify it, and run ``make``. You can eventually add your business card to the repository
 (fork the repository, add your LaTeX source, commit the changes, and create a GitHub pull request).
 
 
@@ -56,4 +56,4 @@ Copy the example (`_example.tex`_), modify it, and run ``make``. You can eventua
 .. _`PDFjam`: http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/
 .. _`downloaded as a ZIP file`: https://github.com/karel-brinda/ligm-business-cards/archive/master.zip
 .. _`latex`: latex
-.. _`_example.tex`: latex/_example.tex
+.. _`_EXAMPLE.tex`: latex/_EXAMPLE.tex

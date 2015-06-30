@@ -6,7 +6,7 @@
 %.sheet.pdf : %.single.pdf
 	pdfnup \
         --nup 2x5 \
-        --scale 0.99 \
+        --scale 1.0 \
         --frame true \
         --a4paper \
         --no-landscape \
