@@ -30,7 +30,9 @@ Downloading using CURL
 
 **Contact:** Philippe Gambette, philippe.gambette@gmail.com
 
-Just open the CartesVisite.odg file in OpenOffice, make the appropriate changes to customize them, copy them in all business cards of the page, and print without adding any margin.
+**Example:** `CartesVisite.pdf`_
+
+Just open the `CartesVisite.odg`_ file, make the appropriate changes to customize them, copy them in all business cards of the page, and print without adding any margin.
 
 2) Creating your business card using TeX
 ----------------------------------------
@@ -72,6 +74,9 @@ Copy the example (`_EXAMPLE.tex`_), modify it, and run ``make``. You can eventua
 .. _`PDFjam`: http://www2.warwick.ac.uk/fac/sci/statistics/staff/academic-research/firth/software/pdfjam/
 .. _`downloaded as a ZIP file`: https://github.com/karel-brinda/ligm-business-cards/archive/master.zip
 .. _`latex`: latex
+.. _`openoffice`: openoffice
+.. _`CartesVisite.odg`: openoffice/CartesVisite.odg
+.. _`CartesVisite.pdf`: openoffice/CartesVisite.pdf
 .. _`_EXAMPLE.tex`: latex/_EXAMPLE.tex
 .. _`_EXAMPLE.single.pdf`: latex/_EXAMPLE.single.pdf
 .. _`_EXAMPLE.sheet.pdf`: latex/_EXAMPLE.sheet.pdf
