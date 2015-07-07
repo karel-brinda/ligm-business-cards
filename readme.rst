@@ -68,6 +68,9 @@ Creating your own business card
 Copy the example (`_EXAMPLE.tex`_), modify it, and run ``make``. You can eventually add your business card to the repository
 (fork the repository, add your LaTeX source, commit the changes, and create a GitHub pull request).
 
+**Please, do not change the ``cardtemplate.sty`` which is shared for all people. All modifications should
+be done just in your .tex file (see all lines of the example). If you need a particular modification of
+the template, contact me.**
 
 .. _`libertine`: https://www.ctan.org/pkg/libertine
 .. _`memoir`: https://www.ctan.org/pkg/memoir
