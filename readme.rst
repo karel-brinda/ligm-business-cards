@@ -50,7 +50,8 @@ Prerequisities
 * Unix-like system (Linux, MacOS, ...).
 * XeLaTeX (usually part of standard TeX environments).
 * `PDFjam`_.
-* The following TeX packages: `libertine`_ and `memoir`_. 
+* TeX package `libertine`_ (installation on Ubuntu by ``sudo apt-get install texlive-fonts-extra``)
+* TeX package `memoir`_. 
 
 
 Compilation
